@@ -5,7 +5,7 @@
 Heading from Magnetometer
 }
 \description{
-based on the animals pitch and roll the heading directed to north. Need to add pi or possibly just had hard and soft iron offsets.
+based on the animals pitch and roll the heading directed to north, Pi might needed to be added to the heading for the correct orientation, Might just be the hard iron offset though
 }
 \usage{
 magHead(PR,magxyz)
